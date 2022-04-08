@@ -1,7 +1,7 @@
 
 # cisco Live PHP frontend template with php-ssh2 and php-phpseclib-net-ssh2 
 
-
+```
 Steps:
 -----
 sudo -i
@@ -22,4 +22,4 @@ git clone https://github.com/soumukhe/aws-aci-lb-ec2-2.git
 cd aws-aci-lb-ec2-2
 docker-compose up --build -d   or simply docker-compose up -d
 browse https to the public ec1IP:9002
-
+```

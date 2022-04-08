@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  php-server:
+    container_name: sm-php
+    restart: always
+    shm_size: 1g
+    tty: true
+    environment:
+       IDLETIME: 11
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+    command: ["/usr/sbin/apachectl", "-D", "FOREGROUND"] 
+    ports:
+      - "9001:80/tcp"
+      - "9002:443/tcp"
+      - "9003:22/tcp"
+    volumes:
+      - "./html:/var/www/html:rw"

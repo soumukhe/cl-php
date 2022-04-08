@@ -18,7 +18,7 @@ sudo usermod -aG docker $USER
 exit # and ssh back in for this to work
 docker --version
 sudo apt install docker-compose -y
-git clone https://github.com/soumukhe/aws-aci-lb-ec2-2.git
+git clone https://github.com/soumukhe/cl-php.git  #  sudo apt install git if needed
 cd aws-aci-lb-ec2-2
 docker-compose up --build -d   or simply docker-compose up -d
 browse https to the public ec1IP:9002

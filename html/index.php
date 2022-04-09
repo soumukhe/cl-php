@@ -222,8 +222,7 @@
 <p> After Clicking Button please <b>wait</b> for the script to complete and update screen <br>
     <span style="color:blue"> Watch your browser tab for it to <b> stop spinning </b> </span>
 </p>
-<i>
-Front page created by Soumitra Mukherji </i>
+<i>Front page created by Soumitra Mukherji </i>
 </head>
 
 </html>

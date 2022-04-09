@@ -5,6 +5,7 @@
         <title>
            Cisco Live Lab 2
         </title>
+        <link rel="icon" type="image/x-icon" href="cisco-live.png">
 </head>
 
 <body style="text-align:left;">

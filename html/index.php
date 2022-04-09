@@ -45,7 +45,7 @@
 
                      echo "details..." . "<br>";
                      echo "ping from: POD1_Web" . "<br>";
-                     echo "ping to: POD1_app" . "<br>";
+                     echo "ping to: &nbsp;&nbsp;&nbsp;  POD1_app" . "<br>";
                    
                      $ssh = new Net_SSH2('10.2.255.21');
                      if (!$ssh->login('some user', 'some user password')) {
@@ -83,7 +83,7 @@
 
                      echo "details..." . "<br>";
                      echo "ping from: POD1_Web" . "<br>";
-                     echo "ping to: POD2_app" . "<br>";
+                     echo "ping to:  &nbsp;&nbsp;&nbsp; POD2_app" . "<br>";
 
                      $ssh = new Net_SSH2('10.2.255.21');
                      if (!$ssh->login('some user', 'some user password')) {
@@ -121,7 +121,7 @@
 
                      echo "details..." . "<br>";
                      echo "ping from: POD2_Web" . "<br>";
-                     echo "ping to: POD2_app" . "<br>";
+                     echo "ping to:  &nbsp;&nbsp;&nbsp; POD2_app" . "<br>";
 
                      $ssh = new Net_SSH2('10.2.255.22');
                      if (!$ssh->login('some user', 'some user password')) {
@@ -160,7 +160,7 @@
 
                      echo "details..." . "<br>";
                      echo "ping from: POD2_Web" . "<br>";
-                     echo "ping to: POD1_app" . "<br>";
+                     echo "ping to:  &nbsp;&nbsp;&nbsp; POD1_app" . "<br>";
 
                      $ssh = new Net_SSH2('10.2.255.22');
                      if (!$ssh->login('some user', 'some user password')) {

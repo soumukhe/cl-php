@@ -343,7 +343,7 @@
                      $match = preg_match($pattern, $value);
 
 
-                     if ($match == "0") {
+                     if ($match == "1") {
 
 
                           echo "<pre>";

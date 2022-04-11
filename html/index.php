@@ -435,6 +435,8 @@
 
                 <input type="submit" name="buttonx" style="background-color: orange; color: black"
                                 class="button" value="Clear Screen" /><br><br>
+               
+                <span style="color:blue"> <b>The Flow buttons below will take a minute to complete.  Please be patient... </b> </span><br>
 
 
                 <input type="submit" name="button5" style="height:100px; width:195px; background-color: green; color: white"

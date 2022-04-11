@@ -436,22 +436,22 @@
                 <input type="submit" name="buttonx" style="background-color: orange; color: black"
                                 class="button" value="Clear Screen" /><br><br>
                
-                <span style="color:blue"> <b>The Flow buttons below will take a minute to complete.  Please be patient... </b> </span><br>
+                <span style="color:blue"> <b>The TCP Flow buttons below will take a minute to complete.  Please be patient... </b> </span><br>
 
 
-                <input type="submit" name="button5" style="height:100px; width:195px; background-color: green; color: white"
-                                class="button" value= "Flow Pod1_Web-2-Pod1_App&#13;&#10;Please be patient&#13;&#10;will run for 40 seconds" style="text-align:center;" />
+                <input type="submit" name="button5"
+                                class="button" value= "TCP Flow Pod1_Web-2-Pod1_App" />
 
-                <input type="submit" name="button6" style="height:100px; width:195px; background-color: green; color: white"
-                                class="button" value= "Flow Pod1_Web-2-Pod2_App&#13;&#10;Please be patient&#13;&#10;will run for 40 seconds" style="text-align:center;" />
-
-
-                <input type="submit" name="button7" style="height:100px; width:195px; background-color: green; color: white"
-                                class="button" value= "Flow Pod2_Web-2-Pod2_App&#13;&#10;Please be patient&#13;&#10;will run for 40 seconds" style="text-align:center;" />
+                <input type="submit" name="button6" 
+                                class="button" value= "TCP Flow Pod1_Web-2-Pod2_App" />
 
 
-                <input type="submit" name="button8" style="height:100px; width:195px; background-color: green; color: white"
-                                class="button" value= "Flow Pod2_Web-2-Pod1_App&#13;&#10;Please be patient&#13;&#10;will run for 40 seconds" style="text-align:center;" />
+                <input type="submit" name="button7" 
+                                class="button" value= "TCP Flow Pod2_Web-2-Pod2_App"/>
+
+
+                <input type="submit" name="button8"
+                                class="button" value= "TCP Flow Pod2_Web-2-Pod1_App" />
 
 
 

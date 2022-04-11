@@ -14,7 +14,7 @@
 		Front Page Student01: </span>  <span style="color:blue">your SID# "Student ID#" is 1</span>
 	</h1>
      
-        <h2>Cisco Live ltraci-2226: Lab2 Topology</h2>
+        <h2>Cisco Live ltraci-2061: Lab2 Topology</h2>
            <img src="cl-lab2-topo.png" alt="Trulli" width="900" height="500">
 	
 

@@ -251,8 +251,8 @@
                      if ($match == "1") {
 
                           echo "<pre>";
-                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh cisco@10.4.201.22 'vmstat 1 120'  " );
-                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh cisco@10.4.201.21 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
+                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh -o StrictHostKeyChecking=no cisco@10.4.201.22 'vmstat 1 120'  " );
+                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh -o StrictHostKeyChecking=no@10.4.201.21 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
                           echo "</pre>";
      
                           echo nl2br ("\n");
@@ -296,8 +296,8 @@
                      if ($match == "1") {
 
                           echo "<pre>";
-                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh cisco@10.4.201.22 'vmstat 1 120'  " );
-                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh cisco@10.4.201.22 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
+                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh -o StrictHostKeyChecking=no@10.4.201.22 'vmstat 1 120'  " );
+                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh -o StrictHostKeyChecking=no@10.4.201.22 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
                           echo "</pre>";
      
                           echo nl2br ("\n");
@@ -347,8 +347,8 @@
 
 
                           echo "<pre>";
-                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh cisco@10.4.201.22 'vmstat 1 120'  " );
-                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh cisco@10.4.201.22 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
+                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh -o StrictHostKeyChecking=no@10.4.201.22 'vmstat 1 120'  " );
+                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh -o StrictHostKeyChecking=no@10.4.201.22 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
                           echo "</pre>";
      
         		  echo nl2br ("\n");
@@ -396,8 +396,8 @@
                      if ($match == "1") {
 
                           echo "<pre>";
-                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh cisco@10.4.201.22 'vmstat 1 120'  " );
-                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh cisco@10.4.201.21 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
+                          #print $ssh->exec("sudo ip vrf exec vrf-101  ssh -o StrictHostKeyChecking=no@10.4.201.22 'vmstat 1 120'  " );
+                          print $ssh->exec("sudo ip vrf exec vrf-101 ssh -o StrictHostKeyChecking=no@10.4.201.21 'for i in {1..40}; do echo -n Flow:  $i ; date ; sleep 1; done' ");
                           echo "</pre>";
          		  echo nl2br ("\n");
 

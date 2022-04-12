@@ -32,6 +32,15 @@ cd
 mkdir cl-student02.php  && cl-student02
 cp -a ../cl-student01.php/* .
 vi the newstudent.sh script and change the 2nd part of the sed parameters for the new student
+   for example for Student 2 the file should look like this:
+     #!/bin/bash
+     # Please change the  2nd part of the sed parameters to the new studint information
+     sed -i "s/student01/student02/g" docker-compose.yaml
+     sed -i "s/9001/9002/g" docker-compose.yaml
+     sed -i "s/Student02/student07/g" ./html/index.php
+     sed -i "s/is 1/is 2/g" ./html/index.php
+     sed -i "s/vrf-102/vrf-107/g" ./html/index.php
+     sed -i "s/201./202./g" ./html/index.php
 ./newstudent.sh
 docker-compose up -d
 

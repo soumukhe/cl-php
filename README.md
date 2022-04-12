@@ -3,7 +3,7 @@
 
 ```
 Steps for Student 01:
------
+----------------------
 sudo -i
 apt-get update && apt-get upgrade -y
 echo net.ipv4.ip_forward=1 >> /etc/sysctl.conf
@@ -44,11 +44,6 @@ vi the newstudent.sh script and change the 2nd part of the sed parameters for th
 ./newstudent.sh
 docker-compose up -d
 
+-------------------------
+Additional Students: Please follow the above student2 step and add student 3 to 32
 ```
-
-
-
-
-```
-
- 

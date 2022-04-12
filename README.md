@@ -22,6 +22,7 @@ git clone https://github.com/soumukhe/cl-php.git  #  sudo apt install git if nee
 mv cl-php.git cl-student01.php
 cd cl-student01.php
 docker-compose up --build -d   or simply docker-compose up -d
+
 browse https <ip_of_host>:9001
 
 Steps for additional Students:
@@ -29,7 +30,7 @@ Steps for additional Students:
 for student 2
 
 cd 
-mkdir cl-student02.php  && cl-student02
+mkdir cl-student02.php  && cl-student02.php
 cp -a ../cl-student01.php/* .
 vi the newstudent.sh script and change the 2nd part of the sed parameters for the new student
    for example for Student 2 the file should look like this:
@@ -43,6 +44,8 @@ vi the newstudent.sh script and change the 2nd part of the sed parameters for th
      sed -i "s/201./202./g" ./html/index.php
 ./newstudent.sh
 docker-compose up -d
+
+browse https <ip_of_host>:9002
 
 -------------------------
 Additional Students: Please follow the above student2 step and add student 3 to 32

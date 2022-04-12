@@ -302,7 +302,7 @@
      
                           echo nl2br ("\n");
      
-                          }else {
+                     }else {
                           echo "<h1 style='color:red;'>Results: Not Reachable cannot send flows</h1>";
                           };
      		     
@@ -353,7 +353,7 @@
      
         		  echo nl2br ("\n");
 
-                          }else {
+                     }else {
                           echo "<h1 style='color:red;'>Results: Not Reachable cannot send flows</h1>";
                           };
 
@@ -402,7 +402,7 @@
          		  echo nl2br ("\n");
 
 
-                          }else {
+                     }else {
                           echo "<h1 style='color:red;'>Results: Not Reachable cannot send flows</h1>";
                           };
 
